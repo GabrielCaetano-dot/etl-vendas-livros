@@ -1,0 +1,38 @@
+livro,categoria,filial,quantidade_vendida,preco_unitario,custo_unitario,data_venda
+O Senhor dos Aneis,Ficcao,Centro,12,"R$ 49,90","R$ 28,50",15/01/2026
+Clean Code,Tecnologia,Online,8,"R$ 89,90","R$ 55,00",15/01/2026
+Sapiens,Nao-Ficcao,Zona Sul,3,"R$ 39,90","R$ 22,00",16/01/2026
+O Hobbit,Ficcao,Centro,20,"R$ 34,90","R$ 19,90",16/01/2026
+Python Fluente,Tecnologia,Online,15,"R$ 99,90","R$ 60,00",17/01/2026
+1984,Ficcao,Zona Norte,7,"R$ 29,90","R$ 15,00",17/01/2026
+Clean Code,Tecnologia,Online,8,"R$ 89,90","R$ 55,00",15/01/2026
+O Poder do Habito,Nao-Ficcao,Centro,25,"R$ 44,90","R$ 25,00",18/01/2026
+Duna,Ficcao,Zona Sul,2,"R$ 54,90","R$ 30,00",18/01/2026
+Fundamentos de SQL,Tecnologia,Online,11,"R$ 79,90","R$ 85,00",19/01/2026
+A Revolucao dos Bichos,Ficcao,Centro,18,"R$ 24,90","R$ 12,00",19/01/2026
+Mindset,Nao-Ficcao,Zona Norte,9,"R$ 42,90","R$ 20,00",20/01/2026
+Java Efetivo,,Online,14,"R$ 94,90","R$ 58,00",20/01/2026
+O Alquimista,Ficcao,Zona Sul,30,"R$ 32,90","R$ 15,90",21/01/2026
+Pai Rico Pai Pobre,Nao-Ficcao,Centro,22,"R$ 37,90","R$ 18,00",21/01/2026
+O Alquimista,Ficcao,Zona Sul,30,"R$ 32,90","R$ 15,90",21/01/2026
+Arquitetura Limpa,Tecnologia,Online,6,"R$ 84,90","R$ 90,00",22/01/2026
+Harry Potter e a Pedra Filosofal,Ficcao,Centro,28,"R$ 44,90","R$ 22,00",22/01/2026
+Breve Historia do Tempo,Nao-Ficcao,Zona Norte,4,"R$ 49,90","R$ 26,00",23/01/2026
+Refatoracao,Tecnologia,Online,10,"R$ 92,90","R$ 95,00",23/01/2026
+Percy Jackson e o Ladrao de Raios,Ficcao,Zona Sul,16,,"R$ 14,00",24/01/2026
+O Milagre da Manha,Nao-Ficcao,Centro,19,"R$ 27,90","R$ 13,00",24/01/2026
+Estruturas de Dados em Python,Tecnologia,Online,13,"R$ 74,90","R$ 40,00",25/01/2026
+As Cronicas de Narnia,Ficcao,Zona Norte,5,"R$ 39,90",,25/01/2026
+Os 7 Habitos das Pessoas Altamente Eficazes,Nao-Ficcao,Zona Sul,21,"R$ 34,90","R$ 17,00",26/01/2026
+Design Patterns,Tecnologia,Online,17,"R$ 109,90","R$ 70,00",26/01/2026
+O Pequeno Principe,Ficcao,Centro,35,"R$ 19,90","R$ 9,00",27/01/2026
+Sapiens,Nao-Ficcao,Zona Sul,3,"R$ 39,90","R$ 22,00",16/01/2026
+Dom Casmurro,Ficcao,,24,"R$ 22,90","R$ 11,00",27/01/2026
+Introducao a Algoritmos,Tecnologia,Online,9,"R$ 119,90","R$ 130,00",28/01/2026
+A Menina que Roubava Livros,Ficcao,Zona Norte,12,"R$ 36,90","R$ 18,00",28/01/2026
+Rapida e Devagar,Nao-Ficcao,Centro,,"R$ 41,90","R$ 21,00",29/01/2026
+Codigo Limpo em Python,Tecnologia,Online,20,"R$ 87,90","R$ 96,00",29/01/2026
+O Codigo Da Vinci,Ficcao,Zona Sul,26,"R$ 31,90","R$ 16,00",30/01/2026
+A Sutil Arte de Ligar o Foda-se,Nao-Ficcao,Zona Norte,1,"R$ 33,90","R$ 17,00",30/01/2026
+Aprendendo SQL,Tecnologia,Online,7,"R$ 69,90","R$ 45,00",
+O Diario de Anne Frank,Nao-Ficcao,Centro,10,"R$ 26,90","R$ 13,00",31/01/2026
