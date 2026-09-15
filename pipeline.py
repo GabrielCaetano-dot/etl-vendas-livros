@@ -33,13 +33,12 @@ df['custo_unitario'] = df['custo_unitario'].str.translate(remocao)
 df['preco_unitario'] = df['preco_unitario'].astype(float)
 df['custo_unitario'] = df['custo_unitario'].astype(float)
 df['data_venda'] = pd.to_datetime(df['data_venda'], dayfirst = True)
-df = df.drop_duplicates(subset = ['livro'], keep = 'first')
+df = df.drop_duplicates(subset = ['livro','filial', 'data_venda'], keep = 'first')
 
 #enriquecendo os dados
-df['receita_total'] = df['quantidade_vendida'] * df['preco_unitario']
-df['margem_lucro'] = (df['custo_unitario'] - df['preco_unitario']) * df['quantidade_vendida']
-df['alerta_prejuizo'] = np.where(df['margem_lucro'] > 0, True, False) 
+df['receita_total'] = (df['quantidade_vendida'] * df['preco_unitario']).round(2)
+df['margem_lucro'] = ((df['preco_unitario'] - df['custo_unitario']) * df['quantidade_vendida']).round(2)
+df['alerta_prejuizo'] = np.where(df['margem_lucro'] < 0, True, False) 
 
 #exportando tabela com filtro
-df[df['quantidade_vendida']>5].to_sql(name='vendas', con = engine, if_exists = 'append', index = False)
-
+df[df['quantidade_vendida']>5].to_sql(name='vendas', con = engine, if_exists = 'replace', index = False)
